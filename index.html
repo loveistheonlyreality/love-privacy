@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Политика конфиденциальности — «Любовь — единственная реальность»</title>
+<style>
+  :root { --gold: #C9A06A; --ink: #3a3229; --muted: #8a7d6b; --bg: #faf6ef; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+         font-family: -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+         line-height: 1.65; }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 40px 22px 80px; }
+  .lang { text-align: right; margin-bottom: 24px; }
+  .lang button { background: none; border: 1px solid var(--gold); color: var(--gold);
+                 border-radius: 20px; padding: 6px 18px; margin-left: 8px;
+                 font-size: 14px; cursor: pointer; }
+  .lang button.active { background: var(--gold); color: #fff; }
+  h1 { font-size: 26px; font-weight: 600; margin: 0 0 6px; }
+  .meta { color: var(--muted); font-size: 14px; margin-bottom: 32px; }
+  h2 { font-size: 18px; color: var(--gold); margin: 28px 0 8px; font-weight: 600; }
+  p, li { font-size: 16px; }
+  ul { padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  strong { font-weight: 600; }
+  .hidden { display: none; }
+  footer { margin-top: 48px; color: var(--muted); font-size: 13px; text-align: center; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="lang">
+    <button id="btn-ru" class="active" onclick="setLang('ru')">Русский</button><button id="btn-en" onclick="setLang('en')">English</button>
+  </div>
+
+  <div id="ru">
+    <h1>Политика конфиденциальности</h1>
+    <div class="meta">Приложение «Любовь — единственная реальность»<br>
+    Разработчик: Сергей Попов · Дата вступления в силу: 30 сентября 2026 г.<br>
+    Контакт: serpunity@gmail.com</div>
+
+    <h2>1. Какие данные мы собираем</h2>
+    <p><strong>Только на вашем устройстве.</strong> Ваши заметки, позиция чтения и прогресс, настройки приложения (тема, размер шрифта, язык, уведомления) хранятся только на вашем устройстве и никуда не передаются, пока вы сами этого не разрешите.</p>
+    <p><strong>Заметки — только с вашего согласия.</strong> Тексты ваших заметок передаются автору только если вы включили переключатель «Отправлять мои заметки автору» на экране «Заметки» (по умолчанию выключен). Это нужно, чтобы развивать книгу. Выключить можно в любой момент — отправка прекратится сразу.</p>
+    <p><strong>Отзывы — по вашему желанию.</strong> Если вы отправляете отзыв через форму в приложении (оценка, текст, ник в Instagram), он попадает на модерацию. Одобренные отзывы публикуются в приложении и видны всем читателям.</p>
+    <p><strong>Анонимная статистика.</strong> Приложение отправляет обезличенные события: открытие приложения, открытие и завершение глав, завершение книги, язык интерфейса и случайный идентификатор установки (набор случайных символов, не связанный с вами). Персональных данных и текстов заметок в статистике нет.</p>
+    <p><strong>Покупки.</strong> Оплата обрабатывается Apple. Мы не получаем и не храним данные ваших банковских карт.</p>
+
+    <h2>2. Как мы используем данные</h2>
+    <ul>
+      <li>Чтобы развивать книгу и понимать, какие места вызывают вопросы у читателей.</li>
+      <li>Чтобы публиковать отзывы, которые вы сами решили оставить.</li>
+      <li>Для обезличенной статистики чтения.</li>
+    </ul>
+
+    <h2>3. Третьи стороны</h2>
+    <ul>
+      <li>Google Firebase (Firestore) — хранение данных, которые вы сами решили отправить: заметки (с вашего согласия), отзывы, анонимная статистика.</li>
+      <li>Apple — обработка платежей в приложении.</li>
+    </ul>
+
+    <h2>4. Ваши права</h2>
+    <ul>
+      <li>Отключить отправку заметок можно в любой момент на экране «Заметки».</li>
+      <li>Удалить все локальные данные — удалив приложение с устройства.</li>
+      <li>Попросить удалить отправленные вами данные — напишите на serpunity@gmail.com.</li>
+    </ul>
+
+    <h2>5. Дети</h2>
+    <p>Мы сознательно не собираем данные детей младше 13 лет.</p>
+
+    <h2>6. Изменения политики</h2>
+    <p>Мы можем обновлять эту политику. Актуальная версия всегда доступна по этой ссылке.</p>
+  </div>
+
+  <div id="en" class="hidden">
+    <h1>Privacy Policy</h1>
+    <div class="meta">"Love is the Only Reality" app<br>
+    Developer: Sergei Popov · Effective date: September 30, 2026<br>
+    Contact: serpunity@gmail.com</div>
+
+    <h2>1. What data we collect</h2>
+    <p><strong>On your device only.</strong> Your notes, reading position and progress, and app settings (theme, font size, language, notifications) are stored only on your device and are never transmitted unless you allow it.</p>
+    <p><strong>Notes — only with your consent.</strong> The texts of your notes are sent to the author only if you turn on the "Share my notes with the author" switch on the Notes screen (off by default). This helps evolve the book. You can turn it off at any time — sending stops immediately.</p>
+    <p><strong>Reviews — at your choice.</strong> If you submit a review through the in-app form (star rating, text, Instagram handle), it goes to moderation. Approved reviews are published in the app and visible to all readers.</p>
+    <p><strong>Anonymous analytics.</strong> The app sends anonymized events: app opens, chapter opens and completions, book completion, interface language, and a random installation identifier (a random string not linked to you). No personal data and no note texts are included in analytics.</p>
+    <p><strong>Purchases.</strong> Payments are processed by Apple. We do not receive or store your bank card details.</p>
+
+    <h2>2. How we use data</h2>
+    <ul>
+      <li>To evolve the book and understand which passages raise questions for readers.</li>
+      <li>To publish reviews you chose to leave.</li>
+      <li>For anonymized reading statistics.</li>
+    </ul>
+
+    <h2>3. Third parties</h2>
+    <ul>
+      <li>Google Firebase (Firestore) — storage of data you chose to send: notes (with your consent), reviews, anonymous analytics.</li>
+      <li>Apple — processing in-app purchases.</li>
+    </ul>
+
+    <h2>4. Your rights</h2>
+    <ul>
+      <li>You can stop sharing notes at any time on the Notes screen.</li>
+      <li>Delete all local data by deleting the app from your device.</li>
+      <li>Ask us to delete data you sent — write to serpunity@gmail.com.</li>
+    </ul>
+
+    <h2>5. Children</h2>
+    <p>We do not knowingly collect data from children under 13.</p>
+
+    <h2>6. Policy changes</h2>
+    <p>We may update this policy. The current version is always available at this link.</p>
+  </div>
+
+  <footer>«Любовь — единственная реальность» · Сергей Попов</footer>
+</div>
+<script>
+  function setLang(l) {
+    document.getElementById('ru').classList.toggle('hidden', l !== 'ru');
+    document.getElementById('en').classList.toggle('hidden', l !== 'en');
+    document.getElementById('btn-ru').classList.toggle('active', l === 'ru');
+    document.getElementById('btn-en').classList.toggle('active', l === 'en');
+    document.documentElement.lang = l;
+  }
+</script>
+</body>
+</html>
